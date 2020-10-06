@@ -1,5 +1,4 @@
- /* Demo purposes only */
- $(".hover").mouseleave(
+$(".hover").mouseleave(
     function () {
       $(this).removeClass("hover");
     }
