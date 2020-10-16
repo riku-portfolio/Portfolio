@@ -115,11 +115,13 @@
     color: #ffffff;
     display: inline-block;
     font-size: 20px;
+    font-family: "smart";
     font-weight: bold;
     line-height: 40px;
-    width: 110px;
+    width: 100px;
     position: relative;
     text-decoration: none;
+    text-align: center;
     border: 1px solid transparent;
     outline: 1px solid;
     outline-color: rgba(255, 255, 255, 0.5);
