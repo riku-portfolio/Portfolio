@@ -108,9 +108,6 @@
     border-image-slice:1;
   }
 
-  .elements{
-  }
-
   .link {
     color: #ffffff;
     display: inline-block;
@@ -168,6 +165,11 @@
 
   p{
     font-size: 6px;
+  }
+  .link{
+    font-size: 10px;
+    line-height: 20px;
+    width: 50px;
   }
 } 
  
