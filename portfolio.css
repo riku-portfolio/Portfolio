@@ -46,6 +46,7 @@
 
   p{
     color: #ffffff;
+    font-size:18px;
     font-family: "smart";
   }
   
@@ -131,8 +132,16 @@
   }
   .pc { display: block !important; }
   .phone { display: none !important; }
-  
 
+  .sl{
+    width: 80%;
+    height: auto;
+  }
+  
+  .slider_img{
+    width: auto;
+    height: auto;
+  }
 
 @media screen and (max-width: 896px) { 
   h1{
@@ -184,4 +193,3 @@
 
   
 } 
- 
