@@ -109,7 +109,6 @@
     display: inline-block;
     font-size: 20px;
     font-family: "smart";
-    font-weight: bold;
     line-height: 40px;
     width: 100px;
     position: relative;
@@ -119,7 +118,6 @@
     outline: 1px solid;
     outline-color: rgba(255, 255, 255, 0.5);
     outline-offset: 0px;
-    text-shadow: none;
     transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
   }
   
@@ -133,9 +131,14 @@
   .pc { display: block !important; }
   .phone { display: none !important; }
 
-  .sl{
-    width: 80%;
+  .sl_wide{
+    width: 75%;
     height: auto;
+  }
+  
+  .sl_height{
+    width: 40%;
+    height: 40%;
   }
   
   .slider_img{
