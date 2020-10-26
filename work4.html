@@ -2,58 +2,55 @@
 
 <html lang="ja">
 <head>
-<title>work4 チーム開発</title>
+<title>work4 データSNS</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <link href="portfolio.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
 <script type="text/javascript" src="portfolio.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.slider').bxSlider({
+        auto: true,
+        pause: 5000,
+    });
+});
+</script>
 </head>
     
 <body>
 <br><br>
-
-
+<h3>データシェアSNSアプリ</h3>
 <br><br>
-<h3>アプリ</h3>
-<br><br>
-
-
-
 <center>
-    <div class="sl_height">
-        <div class="swiper-container">
-            <!-- メイン表示部分 -->
-            <div class="swiper-wrapper">
-                <!-- 各スライド -->
-        <div class="swiper-slide"><img src="image/"></div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-            </div>
-        </div>
+<div class="sl_height">
+    <div class="slider">
+        <img src="image/work4/work4_1.png" class="slider_img">
+        <img src="image/work4/work4_2.png" class="slider_img">
+        <img src="image/work4/work4_3.png" class="slider_img">
+        <img src="image/work4/work4_4.png" class="slider_img">
+        <img src="image/work4/work4_5.png" class="slider_img">
     </div>
+</div>
 </center>
-<br>
 <p>
-    テーマ：<br><br>
-    コンセプト： <br>
-    ターゲット： デザイナー・アーティスト<br>
-    制作期間： 約３週間<br>
-    解決する問題： ムードボードにおける画像の関連のなさ<br>
-    フォント： スタイリッシュな明朝体が一番適していると考え、明朝体ベースのフリーフォントを使用した。
-    <br><br>
-    ここにコメント
+    テーマ：  IoTの普及を想定したアプリUI<br><br>
+    ターゲット： 家庭菜園を趣味に持つ人<br><br>
+    制作期間： 一ヵ月<br><br>
+    解決する問題： IoTが普及した世界でのアプリUIを考えるようになる<br><br>
+    仕様ツール： AdobeXD, Adobeillustrator<br><br>
+    フォント： 見やすく、雰囲気も優しい源ノ角ゴシックJPを使用した 
+    <br><br><br>
+    IoTが普及し、様々なデータを共有する世界がくることを想定し、SNS+データをコンセプトに制作した。
+    このアプリでは、土壌データや野菜を育てるノウハウなどを共有・比較ができるようになり、家庭でもレベルの高い野菜を育てることができるようになり
+    家庭菜園をより楽しく、簡単にできるようになることを期待しながら制作した。
+    メインであるデータを邪魔せず、データに対する堅苦しさを意識させない源ノ角ゴシックが最も適したフォントだと考え、使用した。
 </p>
 <br>
 <hr>
 <br><br>
-
-<center>
-</center>
 <a href="index.html" class="link">戻る</a>
-
-<br><br>
+<br><br><br><br>
 </body>
 </html>

@@ -2,44 +2,53 @@
 
 <html lang="ja">
 <head>
-<title>work7 ゲーム</title>
+<title>work7 ポートフォリオ</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <link href="portfolio.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="portfolio.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.slider').bxSlider({
+        auto: true,
+        pause: 5000,
+    });
+});
+</script>
 </head>
     
 <body>
 <br><br>
-<a href="index.html" class="back">トップに戻る</a>
-
-
+<h3>ポートフォリオ</h3>
 <br><br>
-<h3>ゲーム</h3>
-<br><br>
-
 
 <center>
-    <img src="image/m.png">
+<div class="sl_wide">
+    <div class="slider">
+        <img src="image/work7/work7_1.png" class="slider_img">
+        <img src="image/work7/work7_2.png" class="slider_img">
+    </div>
+</div>
 </center>
-<br>
+
 <p>
-    テーマ：<br><br>
-    コンセプト： <br>
-    ターゲット： <br>
-    制作期間：<br>
-    解決する問題：
-    フォント： 
-    <br><br>
-    ここにコメント
+    テーマ：  自分を伝えるポートフォリオ<br><br>
+    ターゲット： 企業の採用担当の方々<br><br>
+    制作期間： 三ヵ月<br><br>
+    解決する問題： 企業の方に自分を伝えることができる<br><br>
+    仕様ツール・言語： HTML, CSS, Adobeillustrator AdobePhotoshop<br><br>
+    フォント： 落ち着いた雰囲気を出しつつ、見れば見るほど優しく見れる「スマートフォント」というフリーフォントを使用した。
+    <br><br><br>
+    就職活動のためのポートフォリオを制作するということで、大手企業でデザインをされていた先生方にお話を伺い、採用担当の方々は忙しく、しっかりと見てもらえる可能性は低いということを知った。
+    サイトのトップページには大きく名前とデザインに対する気持ちを載せることでインパクト、トップページと作品の詳細のみのシンプルな構成、レスポンシブデザインの使用などで気持ちよく見てもらえるようなデザインにこだわった。
+    真面目に物事に取り組む自身の性格、遊び心を忘れないという性格を表す、あくまで主役は過去の作品という三点を意識しながらフォント、色合い、レイアウトなどを考えた。
 </p>
 <br>
 <hr>
 <br><br>
-
-<center>
-</center>
 <a href="index.html" class="link">戻る</a>
-
-<br><br>
+<br><br><br><br>
 </body>
 </html>
