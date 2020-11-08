@@ -1,6 +1,6 @@
 @font-face {
 	  font-family: "smart";
-	  src: url(fonts/smart.otf);
+	  src: url(../fonts/smart.otf);
   }  
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
