@@ -1,22 +1,8 @@
-@font-face {
-	  font-family: "smart";
-    src: url(../fonts/smart.otf);
-    font-display: swap
-  }  
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 
-  p#Wait { position: absolute;top: 0;left: 0;z-index: 100;width: 100%;height: 1000px;
-  margin: 0;padding: 50px;color: #333333;background: #dddddd;font-size: 160%;
-  }
   .contents{
     margin: 0 auto;
-    font-family: "smart";
-  }
-
-  a{
-    font-family: "smart";
   }
 
   ul{
@@ -26,32 +12,27 @@
   }
 
   h1{
-    font-family: "smart";
     color: #ffffff;
     font-size: 120px;
   }
 
   h2{
-    font-family: "smart";
     color: #ffffff;
     font-size: 43px;
   }
 
   h3{
     color: #ffffff;
-    font-family: "smart";
     font-size: 29px;
   }
 
   h4{
     color: #ffffff;
-    font-family: "smart";
     font-size:24px;
   }
 
   p{
     color: #ffffff;
-    font-family: "smart";
     font-size: 18px;
   }
   
@@ -239,7 +220,6 @@
     color: #ffffff;
     display: inline-block;
     font-size: 20px;
-    font-family: "smart";
     line-height: 40px;
     width: 125px;
     position: relative;
@@ -265,26 +245,22 @@
 
 @media screen and (max-width: 896px) { 
   h1{
-    font-family: "smart";
     color: #ffffff;
     font-size: 75px;
   }
 
   h2{
-    font-family: "smart";
     color: #ffffff;
     font-size: 30px;
   }
 
   h3{
     color: #ffffff;
-    font-family: "smart";
     font-size: 18px;
   }
 
   h4{
     color: #ffffff;
-    font-family: "smart";
     font-size:18px;
   }
 
