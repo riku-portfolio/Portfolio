@@ -1,54 +1,269 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
-<title>work7 ポートフォリオ</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>work7 ポートフォリオ</title>
 <link href="css/portfolio.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/portfolio.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <script>
-$(document).ready(function(){
-    $('.slider').bxSlider({
-        auto: true,
-        pause: 5000,
-    });
-});
+document.documentElement.className="js";
+var supportsCssVars=function(){var e,t=document.createElement("style");
+return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};
+supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
+<script src="js/demo.js" defer="defer"></script>
 </head>
-    
-<body>
-<br><br>
-<h3>ポートフォリオ</h3>
-<br><br>
 
+
+<body>
+<main>
+<div data-scroll id="data">
+<h2 class="scroll-animation-ready fadein-left">7. ポートフォリオ</h2>
+<br>
 <center>
-<div class="sl_wide">
-    <div class="slider">
-        <img src="image/work7/work7_1.png" class="slider_img">
-        <img src="image/work7/work7_2.png" class="slider_img">
+    <div class="scroll-animation-ready fadein">
+    <img src="image/work7/work7_1.jpg" class="workimg">
+    </div>
+</center>
+<br>
+<h2>作品概要</h2>
+<br>
+
+<h3 class="red">テーマ</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr1">
+        <center>
+            <h3>
+               自分を伝えるポートフォリオ
+            </h3>
+            <p>
+               就職活動の際、採用担当の方々に自分を知っていただくためのポートフォリオとして自主制作した。
+            </p>
+        </center>
     </div>
 </div>
-</center>
 
-<p>
-    テーマ：  自分を伝えるポートフォリオ<br><br>
-    ターゲット： 企業の採用担当の方々<br><br>
-    制作期間： 三ヵ月<br><br>
-    解決する問題： 企業の方に自分を伝えることができる<br><br>
-    仕様ツール・言語： HTML, CSS, Adobeillustrator AdobePhotoshop<br><br>
-    フォント： 落ち着いた雰囲気を出しつつ、見れば見るほど優しく見れる「スマートフォント」というフリーフォントを使用した。
-    <br><br><br>
-    就職活動のためのポートフォリオを制作するということで、大手企業でデザインをされていた先生方にお話を伺い、採用担当の方々は忙しく、しっかりと見てもらえる可能性は低いということを知った。
-    サイトのトップページには大きく名前とデザインに対する気持ちを載せることでインパクト、トップページと作品の詳細のみのシンプルな構成、レスポンシブデザインの使用などで気持ちよく見てもらえるようなデザインにこだわった。
-    真面目に物事に取り組む自身の性格、遊び心を忘れないという性格を表す、あくまで主役は過去の作品という三点を意識しながらフォント、色合い、レイアウトなどを考えた。
-</p>
-<br>
-<hr>
+<h3 class="blue">コンセプト</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr2">
+        <center>
+            <h3>
+                デザインする自分
+            </h3>
+            <p class="txt">
+                デザインをする際大切にしている考えや、デザインをする時の楽しさが閲覧者に伝わるポートフォリオになるよう制作した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="orange">作品画面</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr3">
+        <center>
+        <div class="img-container">
+            <img src="image/work7/work7_2.jpg" class="workimg"> 
+        </div>
+        <h3>自分の作品を紹介</h3>
+        <p class="txt">
+            自分の作品が今までに制作してきた作品を見ることができる。
+            Webサイト・インフォグラフィック・ポスター・UIなど様々な作品を掲載した。
+        </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="green">　特徴</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr4">
+            <center>
+                <div class="img-container">
+                    <img src="image/work7/work7_self.jpg" class="workimg"> 
+                </div>
+                <h3>「三谷陸」を理解できる</h3>
+                <p class="txt">
+                    このポートフォリオはスキルや過去作品だけでなく「三谷陸とはどのような人間か」についても理解することができる。
+                </p>
+            </center>
+    </div>
+</div>
+
+
+<h3 class="yellow">仕様ツール・制作期間</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr5">
+        <center>    
+            <div class="txt">
+                <h4>サイト制作： HTML, CSS, Javascript,jQuery</h4>
+                <h4>画像加工・制作： AdobeIllustrator, AdobePhotoshop</h4>
+                <h4>制作期間：約六ヵ月</h4>
+            </div>
+        </center>
+    </div>
+</div>
+
 <br><br>
-<a href="index.html" class="link">戻る</a>
-<br><br><br><br>
+<hr><br>
+<h2>制作工程</h2>
+<br>
+
+<h3 class="red">1.問題提起</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr6">
+        <div class="img-container">
+            <center>
+                <img src="image/work7/work7_3.jpg" class="wideimg">
+                <h3>自分を知ってもらうにはどうすればよいのか</h3>
+                <p class="txt">
+                    ポートフォリオを制作するにあたり、企業でデザインの採用担当経験のある大学の先生にどのような点に注意すべきかを伺った。
+                    「自分の作品載せ、スキルを理解していただくことも当然重要なことだが、共に仕事をしていく仲間としてふさわしいかどうかを判断しているので自分自身がどのような人間かを知ってもらうことが一番重要」
+                    というご指導をいただき、自分を知ってもらうにはどのようなデザインにするべきかを思索しながら制作を進めることにした。
+                </p>
+            </center>
+        </div>
+    </div>
+</div>
+
+
+<h3 class="blue">2.ターゲット</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr7">
+        <div class="scroll-animation fadein-bottom">
+            <center>
+                <img src="image/work7/work7_target.jpg" class="widemediumimg">
+                <h3> 企業の採用担当の方々</h3>
+                <p class="txt">
+                  就職活動用のポートフォリオなので、企業の採用担当の方々をターゲットに設定した。
+                  アプローチの手法も先生に伺い、「採用担当の方は忙しく、見る暇がないことも多々あるので、見てもらえるような工夫を怠らないことが重要」というご指導をいただいた。
+                  また、大学の授業でもポートフォリオ制作に関するアドバイスを受け、幅広いデザイン作品を載せることにした。
+                </p>
+            </center>
+        </div>
+    </div>
+</div>
+
+<h3 class="orange">3.解決策</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr8">
+        <div class="scroll-animation fadein-bottom">
+            <center>
+                <img src="image/work7/work7_1.jpg" class="widemediumimg">
+                <h3>インパクトがあり、続きが気になるポートフォリオ</h3>
+                <p class="txt">
+                    企業の採用担当の方々にポートフォリオを閲覧していただくために、ファーストビューをインパクトあるものにし、名前と大切にしている信条を大きく掲げることにした。
+                    続きを閲覧していただけるよう、導線やレイアウト、文字サイズ文字色なども単調で退屈してしまうということがないように工夫することにした。
+                </p>
+            </center>
+        </div>
+    </div>
+</div>
+
+<h3 class="green">4.ラフスケッチ</h3>
+<div class="workdetail" id="tr9">
+    <div class="scroll-animation fadein-bottom">
+        <center>
+            <img src="image/work7/work7_sketch.jpg" class="widemediumimg">
+            <h3>作ってみる 描いてみる</h3>
+            <p class="txt">
+                一回目の制作段階では、「続きが気になるポートフォリオ」ではなく、「簡単に見ることができるポートフォリオ」を目指して制作を行った。
+                その後、企業の方に面談をしていただき「手抜きに見える」というフィードバックを受けた。
+                そこで、「時間がなくても見れるもの」ではなく「時間がなくても見たくなるもの」を目指しラフスケッチを重ね、続きが気になるデザインにするにはどうすればよいのか熟考した。
+                結果として、目線の動きを考えたレイアウトにする・動きをつけスクロール速度を落としてもらう・色を使い単純な物にならないようにするなどの改善点が見つかった。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="yellow">5.レイアウト</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr10">
+        <center>
+            <img src="image/work7/work7_layout.jpg" class="widemediumimg">
+            <br><br>
+            <h3>インパクト・楽しさ・導線</h3>
+            <p class="txt">
+               トップページの名前と信条でインパクトを受け、動きやアクセントカラーで楽しさを感じ、Z型の導線で次の作品への誘導を行うレイアウトになるよう制作した。
+               また、このポートフォリオは多忙な採用担当の方でも画像と小見出しのみで作品制作工程の流れを把握できるようにした。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="red">6.プロフィール</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr11">
+        <center>
+            <img src="image/work7/work7_self.jpg" class="widemediumimg">
+            <br><br>
+            <h3>自分を伝える</h3>
+            <p class="txt">
+               作品を閲覧していただくことでも自分を自分を理解してもらうことはできるが、プロフィールこそ自分をアピールする項目なので、自分を伝えるという点を非常に重要視した。
+               いままで力を入れて取り組んできたことを3点あげ、それぞれに対する思いやスキルをしっかりと記載することで、自分がどのような人間かを理解してもらえるプロフィールになるよう工夫した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="blue">7.配色</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr12">
+        <div class="img-container">
+            <img src="image/work7/work7_color.jpg" class="phoneimg">
+            <div class="explanation">
+                <h3>白黒とカラフル</h3>
+                <p>
+                    背景はネイビーに近い黒を使用し、見出しなどはアクセントカラーとして赤・青・黄色・緑・オレンジの五色を使用した。
+                    はじめはオレンジの代わりに紫を使用していたが、背景色と色が近くみづらかったため、オレンジに変更し明るい色を3色と
+                    色の見分けをはっきりとつけるために緑・青を使用した。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="orange">8.フォント</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr13">
+        <center>
+            <img src="image/work7/work7_font.jpg" class="workimg">
+            <h3>フォントでも自分を表現</h3>
+            <p class="txt">
+                自分自身の落ち着きと真面目さを表現し、見やすさも配慮された「スマートフォント」というフリーフォントを使用した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="green">9.解決する問題</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr14">
+        <center>
+            <img src="image/work7/work7_1.jpg" class="widemediumimg">
+            <h3>採用担当の方々に自分を伝えることができる</h3>
+            <p class="txt">
+               このポートフォリオを閲覧していただくことで、自分を採用担当の方に理解してもらうことができ就職活動をより円滑に進めることができると考えた。
+            </p>
+        </center>
+    </div>
+</div>
+
+<br><br><hr>
+<h2>制作を通じて学んだこと</h2>
+<p>
+    このポートフォリオはGithubにアップロードし、公開しているので何度も変更を加えながら制作を進めた。
+    第一回目の制作過程では深くまで閲覧してもらえないのであればシンプルにしようと考えていたが、それでは閲覧者に自分を伝えることはできず、厳しいフィードバックを受けた。
+    何度も変更を加えられる点がこのポートフォリオの強みでもあるので、フィードバックをいただくたびに改善を重ねていこうと思う。
+</p>
+
+<br><hr><br><br>
+<a href="index.html" class="link">トップに戻る</a>
+<br>
+
+</div>
+</main>
 </body>
 </html>

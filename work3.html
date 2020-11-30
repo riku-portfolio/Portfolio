@@ -1,57 +1,285 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
-<title>work3 テトラの種類</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
-<script type="text/javascript" src="js/portfolio.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>work3 テトラの種類</title>
 <link href="css/portfolio.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
 <script>
-$(document).ready(function(){
-    $('.slider').bxSlider({
-        auto: true,
-        pause: 5000,
-    });
-});
+document.documentElement.className="js";
+var supportsCssVars=function(){var e,t=document.createElement("style");
+return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};
+supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
+<script src="js/demo.js" defer="defer"></script>
 </head>
-    
+
+
 <body>
-<br><br>
-<h3>テトラの種類</h3>
-<br><br>
+<main>
+<div data-scroll id="data">
+<h2 class="scroll-animation-ready fadein-left">3. テトラの種類</h2>
+<br>
 <center>
-<div class="sl_wide">
-    <div class="slider">
-        <img src="image/work3/work3_1.png" class="slider_img">
-        <img src="image/work3/work3_2.png" class="slider_img">
-        <img src="image/work3/work3_3.png" class="slider_img">
+    <div class="scroll-animation-ready fadein">
+    <img src="image/work3/work3_1.jpg" class="workimg">
+    </div>
+</center>
+<br>
+<h2>作品概要</h2>
+<br>
+
+<h3 class="red">テーマ</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr1">
+        <center>
+            <h3>
+                テトラの種類を紹介するインフォグラフィック
+            </h3>
+            <p>
+               インフォグラフィックを制作しなさいという大学の課題で制作した。
+            </p>
+        </center>
     </div>
 </div>
-</center>
+
+<h3 class="blue">コンセプト</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr2">
+        <center>
+            <h3>
+                図鑑のようなインフォグラフィック
+            </h3>
+            <p>
+                テトラの種類や特徴を図鑑のように楽しく見ていけるようなデザインにした。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="orange">作品画面</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr3">
+        <center>
+        <div class="img-container">
+            <img src="image/work3/work3_2.jpg" class="workimg"> 
+            <img src="image/work3/work3_3.jpg" class="workimg">
+        </div>
+        <h3>個性的なテトラを紹介</h3>
+        <p class="txt">
+            この作品は、テトラの中でも有名で個性の強い種類をピックアップし、
+            色・サイズ・特徴などを簡単に理解できるようになっている。
+        </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="green">　特徴</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr4">
+        <div class="img-container">
+            <img src="image/work3/work3_future.jpg" class="square">
+            <div class="explanation">
+                <h3>テトラの情報を簡単に理解できる</h3>
+                <p>
+                    魚は平面でデザインし、体色を3色程度で表現することで、個体差や光の加減によって左右されることのない平均的な色を把握することができる。
+                    インフォグラフィックとして制作したが、あえて文字情報を削らないことでターゲットが
+                    知りたいであろう情報を的確に伝えることができる。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="yellow">仕様ツール・制作期間</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr5">
+        <center>    
+            <div class="txt">
+                <h4>インフォグラフィック制作： AdobeIllustrator</h4>
+                <h4>制作期間：約1ヵ月</h4>
+            </div>
+        </center>
+    </div>
+</div>
+
+<br><br>
+<hr><br>
+<h2>制作工程</h2>
 <br>
+
+<h3 class="red">1.問題提起</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr6">
+        <div class="img-container">
+            <img src="image/work3/work3_lemontetra.jpg" class="square">
+            <div class="explanation">
+                <h3>生物には個体差がある</h3>
+                <p>
+                    テトラを購入しようと考え、ネットで調べている際に、光の角度や光量によって色がはっきりとわからないのが問題点だと感じていた。
+                    また、テトラの種類によっては性別や生息地などによって同じ種類でも見た目が大きく異なる種がある。
+                    飼育に慣れていたり、ある程度の魚の知識がある人は分かっていることが多いが、ほとんど知識がなく、これから飼い始めようと
+                    している人の中には衝撃を受ける人もいるのではないかと考えた。
+                    このインフォグラフィックはテトラの種類と特徴を簡単に理解することができ、変化することのない平均的な体色も把握することができる。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h3 class="blue">2.ターゲット</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr7">
+        <p>キャリコネニュース</p>
+        <div class="scroll-animation fadein-bottom">
+            <center>
+                <img src="image/work3/work3_target.jpg" class="wideimg">
+                <h3>これからテトラを飼育しようとしている人</h3>
+                <p class="txt">
+                    コロナ禍でインドアの趣味を持つ人が増え、手軽に始めることのできる趣味として、アクアリウムを趣味にする人達が増えてきた。
+                    友人のアルバイト先のペットショップも、アクアリウムを始めようと考えている人が多く訪れると聞いた。
+                    そのような中、個性的でかわいらしいテトラを飼育しようとする人も増え、問題提起で述べた内容と同じことを思う人がいるのではないかと考えた。
+                </p>
+            </center>
+        </div>
+    </div>
+</div>
+
+<h3 class="orange">3.解決策</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr8">
+        <div class="scroll-animation fadein-bottom">
+            <center>
+                <img src="image/work3/work3_solution.png" class="wideimg">
+                <h3>平面で表現する</h3>
+                <p class="txt">
+                    平面でテトラを表現することで、個体差や光の加減に左右されない平均的な体色を把握できるのではないかと思った。
+                    これにより、テトラを購入しようとしている人たちが、実物は想像していた色と全く違った。という感想を抱く機会が減ることを期待し、制作することにした。
+                </p>
+            </center>
+        </div>
+    </div>
+</div>
+
+<h3 class="green">4.ラフスケッチ</h3>
+<div class="workdetail" id="tr9">
+    <div class="scroll-animation fadein-bottom">
+        <center>
+            <img src="image/work3/work3_sketch.jpg" class="widemediumimg">
+            <h3>作ってみる 描いてみる</h3>
+            <p class="txt">
+                平面のデザインで表現することは決まったが、リアルなデザインにするか、丸みをつけるかなどの点をラフスケッチを行い試行錯誤した。
+                テトラは形が似ている種類が多いので、形を意識したリアルな表現よりも、色を見てもらうために簡単な図形の組み合わせでテトラを表現することが重要だと考え、
+                ピクトグラムのような表現で制作することにした。work1の経験から、作品の世界観から逸脱したようなデザインにすることでピクトグラムが目立つということを学んでいたので、
+                作品全体の雰囲気を優しくするためフォントなどは丸みのあるものにし、ピクトグラムのみ角のあるデザインすることにした。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="yellow">5.レイアウト</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr10">
+        <center>
+            <img src="image/work3/work3_layout.jpg" class="widemediumimg">
+            <br><br>
+            <h3>テトラが主役</h3>
+            <p class="txt">
+                インフォグラフィックなので、背景にも意味を持たせるべきかとても悩んだ。
+                しかし、この作品を見てくれる人を想像したとき、文字情報のおかげでそれぞれの特徴を知ることができたという
+                感想を抱く人が多いのではないかと思い、背景は単純なものにしてテトラの情報を邪魔することのないようなレイアウトにした。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="red">6.魚のデザイン</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr11">
+        <div class="img-container">
+            <img src="image/work3/work3_shop.jpg" class="square">
+            <div class="explanation">
+                <h3>目で見てデザインを決める</h3>
+                <p>
+                    生物の個体差、写真の写りなどで大きく差が出てしまう点を解決したいと考えたが、デザインをしている自分がネット上で画像検索し、
+                    出てきた結果をもとに制作したのではデザインする意味がないと考えた。
+                    そこで、友人がアルバイトしているペットショップに足を運び、実際に自分の目で見て魚の色や特徴を把握してからデザインを考えた。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="blue">7.配色</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr12">
+        <div class="img-container">
+            <img src="image/work3/work3_color.jpg" class="square">
+            <div class="explanation">
+                <h3>個性的な色を伝える</h3>
+                <p>
+                    テトラの魅力は個性的な体色で、この作品ではカラフルな体色をいかに伝えるかを何度も試行錯誤した。
+                    結果、背景は水色単色で、文字は白。テトラは基本3色以下にすることで、それぞれ種の平均的な色合いをわかりやすく伝えることができた。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="orange">8.フォント</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr13">
+        <center>
+            <img src="image/work3/work3_font.jpg" class="workimg">
+            <h3>図鑑イメージしたフォント</h3>
+            <p class="txt">
+                「子供向けの図鑑」のようなデザインをイメージしていたので、大人っぽさのある明朝体は作品に合わず、ゴシック体は退屈で、見ていて面白さを感じなかった。
+                そこで、読みやすい中にもどこかかわいらしさのある教科書体を使用することで、イメージしていたデザインに仕上げることができた。
+                また、テトラを角のあるデザインにしたのでフォントは丸みのあるものにしたいと思っていたのでその点においても最適なフォントだと判断した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="green">9.解決する問題</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr14">
+        <center>
+            <img src="image/work3/work3_1.jpg" class="wideimg">
+            <h3>それぞれのテトラの平均的な色や特徴を知れる</h3>
+            <p class="txt">
+                テトラを平面で表現することで、個体差や写真の写りに左右されない平均的な色や特徴を知ることができる。
+                インフォグラフィックではあるが、文字情報をあまり削らないことで、詳しく知りたい種への理解を深めることができる。
+            </p>
+        </center>
+    </div>
+</div>
+
+<br><br><hr>
+<h2>制作を通じて学んだこと</h2>
 <p>
-    テーマ：  テトラのインフォグラフィック<br><br>
-    ターゲット： テトラの購入を考えている人<br><br>
-    制作期間： 一ヵ月<br><br>
-    解決する問題： テトラの種類、色、特徴を一目で理解することができる<br><br>
-    仕様ツール： Adobeillustrator<br><br>
-    フォント： フォントを教科書体にすることで、図鑑や、教科書のような感覚で楽しめる作品にしたいと考えていた。
-    <br><br>
-    テトラを購入する際に、写真の場合光の角度や光量によって色がはっきりとわからないのが問題点だと感じていた。<br>
-    このインフォグラフィックはテトラの種類と特徴を一目で確認できるとともに変化することのないだいたいの色を把握することができる。
+    インフォグラフィックにより何が解決できるかを考えるのが難しかった。
+    自分はこの作品を通じてアクアリウムを趣味に使用としている人に、初歩的な知識を与えることを想定し制作したが、先生方からいただいたフィードバックでは、インフォグラフィックとしては文字量が多いという点を指摘された。
+    次に制作する機会があったときは、インフォグラフィックでなければ解決できない課題を探し出す工程を深く行いたい。
 </p>
+
+<br><hr><br><br>
+
+<table width="100%">
+    <tr>
+        <td width="0%" align="left"><a href="index.html" class="link">トップに戻る</a></td>
+        <td width="33%" align="right"><a href="work4.html" class="link">次の作品</a></td>
+    </tr>
+</table>
+
 <br>
-<hr>
-<br><br>
 
-<center>
-</center>
-<a href="index.html" class="link">戻る</a>
-
-<br><br>
+</div>
+</main>
 </body>
 </html>

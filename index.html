@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<title>top</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>top</title>
 <link href="css/portfolio.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/portfolio.js"></script>
+<script>
+document.documentElement.className="js";
+var supportsCssVars=function(){var e,t=document.createElement("style");
+return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};
+supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+</script>
+<script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
+<script src="js/demo.js" defer="defer"></script>
 </head>
     
-<body>
-<div class="contents">
+<body> 
+<main id="pad">
+<div data-scroll id="data">
 <center>
   <h1>三谷 陸</h1>
   <h4>デザインポートフォリオ</h4><hr>
   <br><br><br><br>
   
-<div class="frame">
+<div class="frame" >
   <h2>デザインで大切にしていること</h2>
-  <h4>デザインは問題解決のための手段</h4>
-  <h4>日本語フォントを使いこなす</h4>
-  <h4>まずは作ってみる 描いてみる</h4>
+  <h3>デザインは問題解決のための手段</h3>
+  <h3>日本語フォントを使いこなす</h3>
+  <h3>まずは作ってみる 描いてみる</h3>
+  <h3>遊び心を忘れずに</h3>
 </div>
 <br><br><br><br>
 
 <ul class="phone">
   <li>
   <figure class="elements">
-    <img src="image/work1/work1.png"/>
-      <h3>社会距離拡大戦略</h3>
+    <img src="image/work1/work1.jpg"/>
+      <h4>社会距離拡大戦略</h4>
       <p>Webサイト</p>
       <a href="work1.html" class="link">詳細</a>
   </figure>
   </li>
   <li>
     <figure class="elements">
-      <img src="image/work2/work2.png"/>
-        <h3>サイト制作の余白</h3>
+      <img src="image/work2/work2.jpg"/>
+        <h4>サイト制作の余白</h4>
         <p>Webサイト</p>
         <a href="work2.html" class="link">詳細</a>
     </figure>
@@ -45,24 +56,24 @@
 <ul class="pc">
 <li>
 <figure class="elements">
-  <img src="image/work1/work1.png"/>
-    <h3>社会距離拡大戦略</h3>
+  <img src="image/work1/work1.jpg" class="scroll-animation fadein-bottom"/>
+    <h4>社会距離拡大戦略</h4>
     <p>Webサイト</p>
     <a href="work1.html" class="link">詳細</a>
 </figure>
 </li>
 <li>
   <figure class="elements">
-    <img src="image/work2/work2.png"/>
-      <h3>サイト制作の余白</h3>
+    <img src="image/work2/work2.jpg" class="scroll-animation fadein-bottom"/>
+      <h4>サイト制作の余白</h4>
       <p>Webサイト</p>
       <a href="work2.html" class="link">詳細</a>
   </figure>
   </li>
   <li>
     <figure class="elements">
-      <img src="image/work3/work3.png"/>
-        <h3>テトラの種類</h3>
+      <img src="image/work3/work3.jpg" class="scroll-animation fadein-bottom"/>
+        <h4>テトラの種類</h4>
         <p>インフォグラフィック</p>
         <a href="work3.html" class="link">詳細</a>
     </figure>
@@ -73,44 +84,43 @@
 <ul class="phone">
   <li>
     <figure class="elements">
-      <img src="image/work3/work3.png"/>
-        <h3>テトラの種類</h3>
+      <img src="image/work3/work3.jpg"/>
+        <h4>テトラの種類</h4>
         <p>インフォグラフィック</p>
         <a href="work3.html" class="link">詳細</a>
     </figure>
   </li>
   <li>
     <figure class="elements">
-      <img src="image/work4/work4.png"/>
-        <h3>データシェアSNSアプリ</h3>
+      <img src="image/work4/work4.jpg"/>
+        <h4>家庭菜園SNS</h4>
         <p>アプリUIデザイン</p>
         <a href="work4.html" class="link">詳細</a>
     </figure>
   </li>
 </ul>
 
-
 <ul class="pc">
   <li>
     <figure class="elements">
-      <img src="image/work4/work4.png"/>
-        <h3>データシェアSNSアプリ</h3>
+      <img src="image/work4/work4.jpg" class="scroll-animation fadein-bottom"/>
+        <h4>家庭菜園SNS</h4>
         <p>アプリUIデザイン</p>
         <a href="work4.html" class="link">詳細</a>
     </figure>
   </li>
   <li>
     <figure class="elements">
-      <img src="image/work5/work5.png"/>
-        <h3>サッカー体験会ポスター①</h3>
+      <img src="image/work5/work5.jpg" class="scroll-animation fadein-bottom"/>
+        <h4>サッカー体験会ポスター①</h4>
         <p>ポスター</p>
         <a href="work5.html" class="link">詳細</a>
     </figure>
   </li>
   <li>
     <figure class="elements">
-      <img src="image/work6/work6.png"/>
-        <h3>サッカー体験会ポスター②</h3>
+      <img src="image/work6/work6.jpg" class="scroll-animation fadein-bottom"/>
+        <h4>サッカー体験会ポスター②</h4>
         <p>ポスター</p>
         <a href="work6.html" class="link">詳細</a>
     </figure>
@@ -121,16 +131,16 @@
 <ul class="phone">
   <li>
     <figure class="elements">
-      <img src="image/work5/work5.png"/>
-        <h3>サッカー体験会ポスター①</h3>
+      <img src="image/work5/work5.jpg"/>
+        <h4>サッカー体験会ポスター①</h4>
         <p>ポスター</p>
         <a href="work5.html" class="link">詳細</a>
     </figure>
   </li>
   <li>
     <figure class="elements">
-      <img src="image/work6/work6.png"/>
-        <h3>サッカー体験会ポスター②</h3>
+      <img src="image/work6/work6.jpg"/>
+        <h4>サッカー体験会ポスター②</h4>
         <p>ポスター</p>
         <a href="work6.html" class="link">詳細</a>
     </figure>
@@ -141,7 +151,7 @@
 <ul class="phone">
   <li>
     <figure class="elements">
-      <h3>ポートフォリオ</h3>
+      <h4>ポートフォリオ</h4>
       <p>Webサイト</p>
       <a href="work7.html" class="link">詳細</a>
     </figure>
@@ -152,23 +162,80 @@
 
 <dev class="pc">
 <br>
-<h3>ポートフォリオ</h3>
+<h4>ポートフォリオ</h4>
 <p>Webサイト</p>
 <a href="work7.html" class="link">詳細</a>
 <hr>
+
 <br><br><br>
 </dev>
 </center>
 
+<h2 class="scroll-animation-ready fadein-left">プロフィール</h2>
+<br>
 <p>
   名前： 三谷　陸<br><br>
   所属： 東洋大学 情報連携学部<br><br>
-  スキル：HTML, css, javascript, C言語, Java, python, swift, Ocaml, SQL, Adobeillustrator, AdobePhotoshop, AdobeXD, Fusion360, UE4, OpenGL, OpenMP, Django, Xcode<br><br>
-  資格： 日本サッカー協会公認 C級コーチ<br><br>
   mail： riku06261146@gmail.com
+  <br><br><br><br>
+  
+  私のポートフォリオを閲覧していただきありがとうございます。
+  大学ではデザイン・エンジニアをはじめとする様々な分野の勉学に取り組んでいます。
+  私の所属している学部ではチームで作業を進めるということを非常に重要視しており、授業の約3分の1がチームで連携しながら進めることになっており、
+  フィードバックを大切にする点や、プレゼン・ディスカッションに慣れているという点が自分の強みだと感じております。
+  そのほかにも、私は幼いころより様々なことに興味があり、趣味や特技などがたくさんあります。
+  その中でも現在最も興味があり、真剣に取り組んできた3点を以下に記載しました。
 </p>
 
+<br><br><br><br><br>
+  <div class="prof-container">
+    <img src="image/self/self-01.jpg" class="prof">
+    <div class="profexplanation">
+      <h3 class="yellow">デザイン</h3>
+      <p>
+        スキル： HTML, CSS, AdobeIllustrator, AdobePhotoshop, AdobeXD, Fusion360, UE4, OpenGL<br><br><br><br>
+
+        大学ではデザインコースに所属しており、UI・UXデザインから、Webデザイン・グラフィックデザイン・プロダクトデザイン・OpenGLを用いたコンピュータグラフィックなど、デザインを幅広く学んでいます。
+        このページのトップにも記載してありますが、デザインをする際には「デザインは問題解決のための手段」、「日本語フォントを使いこなす」、「まずは作ってみる 描いてみる」、「遊び心を忘れずに」
+        これらの信条を大切にしています。このWebサイトは私がいままで制作してきたデザイン作品を載せたポートフォリオになります。
+      </p>
+    </div>
+  </div>
+<br><br><br><br><hr><br><br><br><br>
+
+  <div class="prof-container">
+    <div class="profexplanation">
+      <h3 class="blue">エンジニア</h3>
+      <p>
+        スキル：HTML, CSS, Javascript, C言語, Java, Python, Swift, Ocaml, SQL, OpenMP, Django, Xcode, Andoroid Studio<br><br><br><br>
+
+        私の所属している情報連携学部では、プログラミングを習得しなければAPIを利用したロッカーを使用することができないなど、コンピュータサイエンスを非常に重視しております。
+        私はエンジニアコース所属ではないですが、卒業必要単位数をオーバーするほど積極的にエンジニアの授業を取得しており、エンジニアコースの学生にも引けを取らないほどにエンジニアに関する勉強を行っています。
+        プログラミングも趣味の一つで、Swift以外全ての言語を授業の単位として取得しました。
+        また、プログラミングだけでなく、AI・IoT・OS・コンピュータアーキテクチャ・ネットワーク・セキュリティ・データベース・分散コンピューティングなど、エンジニアに関する内容もデザインと同じく幅広く学んでいます。
+        エンジニアに関するポートフォリオも今後作成していこうと考えています。
+      </p>
+    </div>
+    <img src="image/self/engineer.png" class="prof">
+  </div>
+
+<br><br><br><br><hr><br><br><br><br>
+
+  <div class="prof-container">
+    <img src="image/self/coach.jpg" class="prof">
+    <div class="profexplanation">
+      <h3 class="red">サッカー</h3>
+      <p>
+        資格: 日本サッカー協会公認C級指導者<br><br><br><br>
+
+        私は物心ついたころから十数年間サッカーに関わり続けており、高校の部活引退以降は地元の少年団で、毎週水・土・日曜日に小学生にサッカーを教える指導者として活動しています。
+        サークルにも所属せず、子供たち・保護者の方・ベテランのコーチ陣からの信頼を得て、チームを導くために自身の時間を使うことは、大変なことも多いですが、他の環境では学ぶことができない非常に有意義な経験ができていると感じています。
+        自身がかなわなかった「サッカーを楽しむ」ということを子供たちに伝えるまで、この取り組みは続けたいと思っています。
+      </p>
+    </div>
 </div>
-<br><br>
+
+</div>
+</main>
 </body>
 </html>

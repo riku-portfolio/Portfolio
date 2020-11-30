@@ -1,59 +1,282 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
-<title>work2 サイト制作の余白</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
-<script type="text/javascript" src="js/portfolio.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>work2 サイト制作の余白</title>
 <link href="css/portfolio.css" rel="stylesheet" type="text/css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/portfolio.js"></script>
 <script>
-$(document).ready(function(){
-    $('.slider').bxSlider({
-        auto: true,
-        pause: 5000,
-    });
-});
+document.documentElement.className="js";
+var supportsCssVars=function(){var e,t=document.createElement("style");
+return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};
+supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
+<script src="js/demo.js" defer="defer"></script>
 </head>
-    
+
+
 <body>
-<br><br>
-<h3>サイト制作の余白</h3>
-<br><br>
+<main>
+<div data-scroll id="data">
+<h2 class="scroll-animation-ready fadein-left">2. サイト制作の余白</h2>
+<br>
 <center>
-    <div class="sl_height">
-        <div class="slider">
-            <img src="image/work2/work2_1.png" class="slider_img">
-            <img src="image/work2/work2_2.png" class="slider_img">
-            <img src="image/work2/work2_3.png" class="slider_img">
-            <img src="image/work2/work2_4.png" class="slider_img">
-            <img src="image/work2/work2_5.png" class="slider_img">
-            <img src="image/work2/work2_6.png" class="slider_img">
-        </div>
+    <div class="scroll-animation-ready fadein">
+    <img src="image/work2/work2_1.png" class="phoneimg">
     </div>
 </center>
-<p> 
-    テーマ： ウェブサイト制作を制作する際に上手な余白の使い方を参照することができるスマホサイト<br><br>
-    ターゲット： デザイナー<br><br>
-    制作期間： 一ヵ月<br><br>
-    解決する問題： サイト制作をする際に、上手な余白の使い方を理解できる<br><br>
-    仕様ツール・言語： HTML, CSS, Adobeillustrator<br><br>
-    フォント： フォントは読みやすく、すっきりとした明朝体が一番適していると考え、明朝体ベースのフリーフォントを使用した。
-    <br><br><br>
-    デザイナーがサイトのレイアウトを考えている際に、ハンドブックのような感覚で余白の使い方の例やテクニックなどを参照できるようなサイトを目指して作った。
-    デザイナー向けなので、比較的軽めの内容にし、余白に関する説明やコードなども簡単なものだけで作り上げるようにこだわった。
-    ウェブサイトに関する余白だけでなく、絵画や料理など、一見関係ないように思えるものの余白に関する情報も加えることで、レイアウトを考える際のヒントになることを期待した。
-    レスポンシブなので、PCでも表示することができる。
-
-</p>
 <br>
-<hr>
+<h2>作品概要</h2>
+<br>
+
+<h3 class="red">テーマ</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr1">
+        <center>
+            <h3 class="txt">
+                サイト制作をする際、上手な余白の使い方を参照できるスマホサイト
+            </h3>
+            <p class="txt">
+                Webサイト制作に関係するテクニックを参照できるスマホサイトを制作しなさいという大学の課題で制作した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="blue">デザインコンセプト</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr2">
+        <center>
+            <h3>
+                ハンドブックのような感覚で見るサイト
+            </h3>
+            <p class="txt">
+                デザイナーがサイトのレイアウトを考えている際に、ハンドブックのような感覚でテクニックなどを参照できるサイトを目指して作った。
+                
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="orange">作品画面</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr3">
+        <center>
+        <div class="img-container">
+    <img src="image/work2/work2_4.png" class="phoneimg">
+        </div>
+        <h3>デザインのアイデアは意外なものから</h3>
+        <p class="txt">
+            デザイナー向けなので、コーディングに関する内容は簡単なものにし、絵画や料理、プレゼンスライドやポスターなど、
+            Webサイト制作にとは無関係な作品の余白に関する情報も閲覧でき、レイアウトを考える際のヒントになることを期待した。
+            レスポンシブなので、PCでも表示することができる。
+        </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="green">　特徴</h3>
+
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr4">
+        <div class="img-container">
+            <img src="image/work2/work2_tab.jpg" class="phoneimg">
+            <div class="explanation">
+                <h3>知ることから開発まで</h3>
+                <p>
+                    余白を「知る・見る・作る」全ての工程を一貫してさサポートしてくれるサイトとして作った。
+                    デザイナーは、このサイト一つでサイト制作の余白に関する情報を得ることができる。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="yellow">仕様ツール・言語・制作期間</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr5">
+        <center>    
+            <div class="txt">
+                <h4>サイト制作： HTML, CSS</h4>
+                <h4>画像の制作： Adobeillustrator</h4>
+                <h4>制作期間：約1ヵ月</h4>
+            </div>
+        </center>
+    </div>
+</div>
+
 <br><br>
-<a href="index.html" class="link">戻る</a>
-<br><br><br><br>
+<hr><br>
+<h2>制作工程</h2>
+<br>
+
+<h3 class="red">1.問題提起</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr6">
+        <p>ガベージニュース 年齢層別にインターネットの時間帯利用状況をグラフ化してみる</p>
+        <div class="img-container">
+            <img src="image/work2/work2_graph.gif" class="square">
+            <div class="explanation">
+                <h3>スマホサイトの強みはなにか</h3>
+                <p>
+                    「スマホサイト」という制約の中開発を行うので、スマホサイトの利点を考えた。
+                    どこでも閲覧できるのがスマホサイトの利点だとすれば、机に向かって作業をしている時ではなく、電車の中・昼休み・寝る前などの
+                    隙間時間に閲覧するサイトを作ることが重要だと考えた。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h3 class="blue">2.ターゲット</h3>
+<div class="workdetail" id="tr7">
+    <div class="scroll-animation fadein-bottom">
+         <center>
+            <img src="image/work2/work2_target.gif" class="widemediumimg">
+            <h3>ターゲットはデザイナー</h3>
+            <p class="txt">
+                隙間時間にアプローチするサイトを制作するのであれば、開発中にサイトを参照することの多いエンジニア向けのサイトは最適ではないと考えた。
+                そこで、サイトのデザインやレイアウトを考えているWebデザイナーをターゲットに設定し、
+                Web上に詳しい情報が載っていなかった、余白に関するテクニックを扱うサイトを制作することにした。
+            </p>
+         </center>
+    </div>
+</div>
+
+<h3 class="orange">3.解決策</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr8">
+        <div class="img-container">
+            <img src="image/work2/work2_2.png" >
+            <div class="explanation">
+                <h3>
+                    ハンドブックのように学べる・楽しめるサイト
+                </h3>
+                <p>
+                    ハンドブックのように、隙間時間にWeb制作の余白を学び・楽しむことができるサイトが最適だと考えた。
+                    デザイナー向けのサイトを調べていると、デザインのヒントから開発までを一貫してサポートしているサイトが少ないことに気が付いたので
+                    記載する内容は、デザインのヒントになることを期待した内容から、コーディングに関する内容まで幅広く扱うことにした。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="green">4.ラフスケッチ・ワイヤーフレーム</h3>
+<div class="workdetail" id="tr9">
+    <div class="scroll-animation fadein-bottom">
+        <center>
+            <img src="image/work2/work2_sketch.jpg" class="workimg">
+            <h3>作ってみる 描いてみる</h3>
+            <p class="txt">
+                隙間時間に見る事を想定したサイトなので、リラックスした感覚で楽しむことができるサイトのデザインにしようと考えた。
+                作品紹介をするページは解説を数行にまとめ、ユーザーがじっくりと作品を見れるようなデザインにした。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="yellow">5.レイアウト</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr10">
+        <div class="img-container">
+            <img src="image/work2/work2.jpg" class="workimg">
+            <div class="explanation">
+                <h3>余白を使う</h3>
+                <p>
+                    このサイト自体が余白を多く使用することで、
+                    このサイトを利用しているデザイナー自身が「余白があることでユーザーは何を感じるのか」を身をもって理解できるようにした。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="red">6.情報整理</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr11">
+        <div class="img-container">
+            <img src="image/work2/work2_4.png" class="phoneimg">
+            <div class="explanation">
+                <h3>様々なものからデザインヒントを</h3>
+                <p>
+                  自分も、デザインコースに所属している他の学生も、デザインのプロも、何が自分のデザインに影響を与えるかはわからない。
+                  このサイトには、Webサイトのデザインとは無関係な作品の余白も紹介することで、デザイナーがレイアウトを考える際のヒントになること期待した。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="blue">7.配色</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr12">
+        <center>
+            <img src="image/work2/work2_4.png" class="phoneimg">
+            <img src="image/work2/work2_6.png" class="phoneimg">
+            <h3>本のような色合い</h3>
+            <p class="txt">
+                白の背景に黒の文字で作成した。
+                ハンドブックのようなサイトをコンセプトにしているので、本の紙色に近いアイボリーをサブカラーとして使用した。
+                また、余白に関係するmargin・paddingを説明する画像は、サイトの雰囲気に合う色にするためにIllustratorを使って作り直した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="orange">8.フォント</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr13">
+        <center>
+            <img src="image/work2/work2_font.gif" class="widemediumimg">
+            <h3>和をイメージしたフォント</h3>
+            <p class="txt">
+                余白の美学というのは古来より続く日本独自の美的感覚なので、日本らしさのあるフォントが最適だと考え、楷書体を使おうと考えた。
+                しかし、読みにくい事と、力強い印象がサイトに合わなかったので、読みやすくすっきりとしたほのか明朝という明朝体ベースのフリーフォントを使用した。
+            </p>
+        </center>
+    </div>
+</div>
+
+<h3 class="green">9.解決する問題</h3>
+<div class="scroll-animation fadein-bottom">
+    <div class="workdetail" id="tr14">
+        <center>
+            <img src="image/work2/work2_2.png" class="phoneimg">
+            <img src="image/work2/work2_6.png" class="phoneimg">
+            <h3>余白に関する情報はこのサイト一つ</h3>
+            <p class="txt">
+                デザインのヒントをひらめくところから開発まで、デザイナーはこのサイト一つで余白に関するテクニックを幅広く参照することができる。
+            </p>
+        </center>
+    </div>
+</div>
+
+<br><br><hr>
+<h2>制作を通じて学んだこと</h2>
+<p>
+    今回の課題は「スマホサイト」という制約のなかで開発を行った。
+    いままでは自分自身でサイトの利用シーンを設定することができたが、今回のように利用シーンがある程度決まっている状況でのサイトデザインは非常に難しく、特に利用者に与える経験をデザインすることが非常に難しかった。
+    しかし今回の課題を通じ、制約の中で最善の作品を作り上げる力が身に着いたと実感している。
+</p>
+
+<br><hr><br><br>
+
+<table width="100%">
+    <tr>
+        <td width="0%" align="left"><a href="index.html" class="link">トップに戻る</a></td>
+        <td width="33%" align="right"><a href="work3.html" class="link">次の作品</a></td>
+    </tr>
+</table>
+    
+
+<br>
+</div>
+</main>
 </body>
 </html>
