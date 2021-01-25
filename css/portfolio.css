@@ -38,29 +38,10 @@
   
   body {      
     margin: 0;
-    background-color:#09090c;
+    background-color:#0b0b1b;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-  }
-  #posdata{
-    padding-top:5%;
-    padding-right:3%;
-    padding-left:5%;
-    padding-bottom: 5%;
-  }
-  #data{
-    padding-top:5%;
-    padding-right:3%;
-    padding-left:5%;
-    padding-bottom: 5%;
-
-  }
-
-  li {
-    display: table-cell;
-    width: 30%;
-    height: 30%;
   }
 
   ul {
@@ -78,41 +59,6 @@
     height: 100%;
   }
 
-  .workimg{
-    width: 60%;
-    height: 60%;
-    margin: 1%;
-  }
-
-  .wideimg{
-    width: 100%;
-    height: auto;
-  }
-
-  .widemediumimg{
-    width: 75%;
-    height: auto;
-  }
-  
-  .square{
-    height: 50%;
-    width: 50%;
-  }
-  
-  .phoneimg{
-    height: 30%;
-    width: auto;
-  }
-
-  .posimg{
-    height: 35%;
-    width: 35%;
-  }  
-
-  #tab{
-    height: auto;
-    width: 75%;
-  }
 
   .workdetail{
     padding-top: 3%;
@@ -152,10 +98,6 @@
     height: auto;
   }
 
-  .logo{
-    height: 5%;
-    width: 5%;
-  }
   
   .fadein-bottom{
   -webkit-transition: all .6s linear;
@@ -200,9 +142,6 @@
 .fadein.active{
   opacity: 1;
 }
-
-
-
 .red{color: #e74c3c;}
 .orange{color: #e67e22;}
 .yellow{color: #f1c40f;}
@@ -240,9 +179,6 @@
     text-shadow: 2px 2px 3px #000;
   }
 
-  .pc { display: block !important; }
-  .phone { display: none !important; }
-
 @media screen and (max-width: 896px) { 
   h1{
     color: #ffffff;
@@ -268,28 +204,12 @@
     font-size: 10px;
   }
 
-  .phoneimg{
-    height: 25%;
-    width: 25%;
-  }
-
   .link{
     font-size: 10px;
     line-height: 20px;
     width: 50px;
   }
-  
-  li {
-    display: table-cell;
-    width: 50%;
-    height: 50%;
-  }
-  ul {
-    width: 100%;
-    height: 100%;
-  }
 
-  .pc { display: none !important; }
-  .phone{ display: block !important; }
+}
 
-} 
+/*Voyage*/
