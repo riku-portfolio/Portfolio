@@ -23,12 +23,12 @@
 
   h2{
     color: #0b0b1b;
-    font-size: 43px;
+    font-size: 40px;
   }
 
   h3{
     color: #0b0b1b;
-    font-size: 29px;
+    font-size: 28px;
   }
 
   h4{
@@ -38,32 +38,27 @@
 
   p{
     color: #0b0b1b;
-    font-size: 18px;
+    font-size: 16px;
   }
   
   body {      
+    background-color: #ECFAFB;
     margin: 0;
-    background-color:#fafafa;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
   }
 
-  ul {
-    width: 100%;
-    height: 100%;
-  }
-
-  .prof{
-    width: 30%;
-    height: 20%;
-  }
 
   img{
     width: 100%;
     height: 100%;
   }
 
+  .phoneimg{
+    width: 40%;
+    height: auto;
+  }
 
   .workdetail{
     padding-top: 3%;
@@ -93,21 +88,7 @@
     margin-right: 5%;
   }
 
-  .explanation{
-    margin-left: 5%;
-  }
-  .txt {
-    display: inline-block;
-    text-align: left;
-    width: 80%;
-    height: auto;
-  }
 
-  div{
-    background-color: #f8fdff;
-  }
-
-  
   .fadein-bottom{
   -webkit-transition: all .6s linear;
   -o-transition: all .6s linear;
@@ -181,6 +162,44 @@
     outline-offset: 12px;
     text-shadow: 2px 2px 3px #000;
   }
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans');
+
+.LightWaves {
+  animation: lightwaves 2s infinite;
+  position: relative;
+}
+
+@keyframes lightwaves {
+    0%,100% { transform: translate(0,0); }
+    25%     { transform: translate(5px,5px); transform: scale(1.05); }
+    50%     { transform: translate(25px, 5px); }
+    75%     { transform: translate(12px,10px); transform: scale(1.05); }
+}
+
+.DarkWaves {
+  animation: darkwaves 3.8s infinite;
+}
+
+@keyframes darkwaves {
+    0%,100% { transform: translate(0,0); }
+    25%     { transform: translate(25px, 5px); transform: scale(1.05); }
+    50%     { transform: translate(12px,10px); }
+    75%     { transform: translate(5px,5px); }
+}
+
+.WhiteWaves {
+  animation: whitewaves 4s alternate ease infinite;
+}
+
+@keyframes whitewaves {
+    0% { transform: translate(0,25px); }
+    100%     { transform: translate(25px,35px); }
+}
+
+
 
 @media screen and (max-width: 896px) { 
   h1{
