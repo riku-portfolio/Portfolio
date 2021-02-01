@@ -42,7 +42,7 @@
   }
   
   body {      
-    background-color: #ECFAFB;
+    background-color: #fff5d9;
     margin: 0;
     margin-left: 5%;
     margin-right: 5%;
@@ -58,15 +58,6 @@
   .phoneimg{
     width: 40%;
     height: auto;
-  }
-
-  .workdetail{
-    padding-top: 3%;
-    padding-left:13%;
-    padding-right:13%;
-    padding-bottom: 3%;
-    border-left:3px solid #f7f7f7;
-    margin-left: 3%;
   }
   
   .img-container{
