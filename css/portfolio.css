@@ -43,7 +43,7 @@
   
   body {      
     margin: 0;
-    background-color:#fafafa;
+    background-color:#fffefe;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -102,11 +102,6 @@
     width: 80%;
     height: auto;
   }
-
-  div{
-    background-color: #f8fdff;
-  }
-
   
   .fadein-bottom{
   -webkit-transition: all .6s linear;

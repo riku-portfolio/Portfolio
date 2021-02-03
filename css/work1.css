@@ -42,7 +42,7 @@
   }
   
   body {      
-    background-color: #ECFAFB;
+    background-color: #fffefe;
     margin: 0;
     margin-left: 5%;
     margin-right: 5%;
@@ -63,10 +63,14 @@
     height: 400px;
     overflow: hidden;
     width: 70%;
-    background-color: #fffefe;
+    background-color: #ECFAFB;
     margin-top: 3%;
   }
   
+  .slide{
+    width: 40%;
+    height: auto;
+  }
 
   .contents img{
     margin-top : 7%;
