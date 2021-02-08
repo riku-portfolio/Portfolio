@@ -1,11 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
-
-.color1{color: #e74c3c;}
-.color2{color: #e67e22;}
-.color3{color: #f1c40f;}
-.color4{color: #2ecc71;}
-.color5{color: #3498db;}
-
 
   ul{
     list-style: none;
@@ -20,43 +12,61 @@
 
   h2{
     color: #06061d;
-    font-size: 40px;
+    font-size: 46px;
   }
 
   h3{
     color: #06061d;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 5px;
+    margin-bottom: 0px;
   }
 
   h4{
-    color: #06061d;
-    font-size:20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: #1f1f27;
+    font-size:18px;
+    position: relative;
+    padding: 0.25em 0;
+  }
+
+  h4:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #1f1f27;
+    /*
+    background: -webkit-linear-gradient(to right, #b2f6ff,#4cebd5);
+    background: linear-gradient(to right, #b2f6ff, #4cebd5);
+    */
   }
 
   p{
     color: #06061d;
+    margin-top: 5px;
     font-size: 16px;
   }
   
   body {      
-    background-color: #fffefe;
+    background-color: #f7f7ff;
     margin: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
     margin-bottom: 5%;
   }
 
   .phoneimg{
-    width: 35%;
+    width: 15%;
     height: auto;
   }
 
   .illustration{
     width: 100%;
     margin-top: 5%;
+  }
+  
+  .main{
+    background-color: #feffff;
+    padding: 2%;
   }
 
   .contents {
@@ -68,7 +78,7 @@
   }
   
   .slide{
-    width: 40%;
+    width: 50%;
     height: auto;
   }
 
@@ -99,41 +109,6 @@
 
   
 
-  .c{
-    background-color: #e74c3c;
-    width: 1200px;
-    height: 600px;
-    display: block;
-  }
-
-  .img-container{
-    display:flex;/* flexbox */
-    justify-content:center; /* 水平方向 */
-    align-items: center; /* 垂直方向 */
-  }
-  .explanation{
-    height: 100%;
-    margin-left: 5%;
-    background-color: #2ecc71;
-  }
-
-  .fadein-bottom{
-  -webkit-transition: all .6s linear;
-  -o-transition: all .6s linear;
-  transition: all .6s linear;
-  -webkit-transform: translateY(10%);
-  -moz-transform: translateY(10%);
-  -ms-transform: translateY(10%);
-  transform: translateY(10%);
-  opacity: 0;
-}
-.fadein-bottom.active{
-  -webkit-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-  opacity: 1;
-}
 .fadein-left{
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
@@ -161,65 +136,23 @@
   opacity: 1;
 }
 
-  .link {
-    color: #06061d;
-    display: inline-block;
-    font-size: 20px;
-    line-height: 40px;
-    width: 125px;
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid transparent;
-    outline: 1px solid;
-    outline-color: rgba(255, 255, 255, 0.5);
-    outline-offset: 0px;
-    transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
-  }
-  
-  .link:hover {
-    border-color: #FFF;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-    outline-color: transparent;
-    outline-offset: 12px;
-    text-shadow: 2px 2px 3px #000;
-  }
+.cp_link {
+	padding: 15px;
+	background-image: linear-gradient(to right, #fefeff 50%, #06061d 50%);
+	background-position: 0 0;
+	background-size: 200% auto;
+	transition: .3s;
+  border:  2px solid #06061d;
+  text-decoration: none;
+	color: #06061d;
 
-
-
-  @import url('https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans');
-
-.LightWaves {
-  animation: lightwaves 2s infinite;
-  position: relative;
 }
 
-@keyframes lightwaves {
-    0%,100% { transform: translate(0,0); }
-    25%     { transform: translate(5px,5px); transform: scale(1.05); }
-    50%     { transform: translate(25px, 5px); }
-    75%     { transform: translate(12px,10px); transform: scale(1.05); }
+.cp_link:hover {
+	background-position: -100% 0;
+	color: #fff;
 }
 
-.DarkWaves {
-  animation: darkwaves 3.8s infinite;
-}
-
-@keyframes darkwaves {
-    0%,100% { transform: translate(0,0); }
-    25%     { transform: translate(25px, 5px); transform: scale(1.05); }
-    50%     { transform: translate(12px,10px); }
-    75%     { transform: translate(5px,5px); }
-}
-
-.WhiteWaves {
-  animation: whitewaves 4s alternate ease infinite;
-}
-
-@keyframes whitewaves {
-    0% { transform: translate(0,25px); }
-    100%     { transform: translate(25px,35px); }
-}
 
 
 
