@@ -7,14 +7,6 @@
 <link href="css/portfolio.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/portfolio.js"></script>
-<script>
-document.documentElement.className="js";
-var supportsCssVars=function(){var e,t=document.createElement("style");
-return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};
-supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
-</script>
-<script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
-<script src="js/demo.js" defer="defer"></script>
 </head>
     
 <body class="loading"> 
@@ -23,7 +15,7 @@ supportsCssVars()||alert("Please view this demo in a modern browser that support
   
 <center>
   <h1>三谷 陸</h1>
-  <h4>デザインポートフォリオ</h4><hr>
+  <h4>ポートフォリオ</h4><hr>
   <br><br><br><br>
   
 <div class="frame" >
@@ -39,32 +31,31 @@ supportsCssVars()||alert("Please view this demo in a modern browser that support
 
 <ul>
   
-<li>
-  <img src="image/work1/work1.jpg" class="scroll-animation fadein-bottom"/>
+<li class="work">
+  <div class="img_wrap">
+    <img src="https://cotodama.co/wp-content/uploads/2018/09/css_mouseover_img03.png">
+  </div>
+  
     <h4>project1</h4>
     <p>UIデザイン+開発エンジニア</p>
     <p><a href="work1.html" class="link">作品を見る →</a></p>
 </li>
-<li id="li1">
-  <img src="image/work1/work1.jpg" class="scroll-animation fadein-bottom"/>
+<li class="work">
     <h4>voyage</h4>
     <p>UIデザイン</p>
     <p><a href="work2.html" class="link">作品を見る →</a></p>
 </li>
-<li id="li2">
-    <img src="image/work2/work2.jpg" class="scroll-animation fadein-bottom"/>
+<li class="work">
       <h4>Recci</h4>
       <p>UIデザイン+チーム開発</p>
       <p><a href="work3.html" class="link">作品を見る →</a></p>
   </li>
-  <li>
-    <img src="image/work1/work1.jpg" class="scroll-animation fadein-bottom"/>
+  <li class="work">
       <h4>サッカー体験会ポスター</h4>
       <p>ポスターデザイン　学外活動</p>
       <p><a href="work4.html" class="link">作品を見る →</a></p>
   </li>
-<li>
-    <img src="image/work3/work3.jpg" class="scroll-animation fadein-bottom"/>
+<li class="work">
       <h4>その他の作品</h4>
       <p><a href="work5.html" class="link">作品を見る →</a></p>
 </li>
@@ -75,7 +66,7 @@ supportsCssVars()||alert("Please view this demo in a modern browser that support
 
 
 
-<h2 class="scroll-animation-ready fadein-left">プロフィール</h2>
+<h2>プロフィール</h2>
 <p>
   名前： 三谷　陸<br><br>
   所属： 東洋大学 情報連携学部<br><br>
