@@ -7,7 +7,7 @@
 
   h1{
     color: #06061d;
-    font-size: 50px;
+    font-size: 56px;
   }
 
   h2{
@@ -36,10 +36,6 @@
     display: block;
     height: 2px;
     background-color: #1f1f27;
-    /*
-    background: -webkit-linear-gradient(to right, #b2f6ff,#4cebd5);
-    background: linear-gradient(to right, #b2f6ff, #4cebd5);
-    */
   }
 
   p{
@@ -75,12 +71,26 @@
   .contents {
     overflow: hidden;
     margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-bottom: 5%;
     border: solid 2px #06061d;
     background-color: #EBFAFA;
   }
   
+  .explanation{
+    margin-top: 12%;
+    padding-left: 10%;
+  }
+
+  .textbox{
+      text-align: left;
+      display: inline-block;
+  }
+
   .slide{
     width: 50%;
     height: auto;
@@ -114,10 +124,16 @@
     width: 80%;
   }
   .top h1 {
+    font-size: 75px;
     color: #fff;
   }
   .top h3 {
+    font-size: 40px;
     color: #fff;
+  }
+  .top h5 {
+    color: #fff;
+    font-size: 30px;
   }
   .top{
     width: 100%;
@@ -192,6 +208,19 @@
     font-size: 10px;
     line-height: 20px;
     width: 50px;
+  }
+
+  .top h1 {
+    font-size: 35px;
+    color: #fff;
+  }
+  .top h3 {
+    font-size: 20px;
+    color: #fff;
+  }
+  .top h5 {
+    color: #fff;
+    font-size: 13px;
   }
 
 }

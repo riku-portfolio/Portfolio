@@ -21,12 +21,12 @@
 
   h3{
     color: #0b0b1b;
-    font-size: 29px;
+    font-size: 34px;
   }
 
   h4{
     color: #0b0b1b;
-    font-size:24px;
+    font-size:20px;
   }
 
   p{
@@ -52,11 +52,16 @@
     height: 20%;
   }
 
-  img{
-    width: 100%;
-    height: 100%;
-  }
 
+  #w1{
+    background-color: #b4f8ed;
+  }
+  #w2{
+    background-color: #f3a0a0;
+  }
+  #w3{
+    background-color: #fde7ab;
+  }
 
   .workdetail{
     padding-top: 3%;
@@ -82,31 +87,43 @@
   }
 
   .profexplanation{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .explanation{
     margin-left: 5%;
   }
-  .txt {
-    display: inline-block;
-    text-align: left;
-    width: 80%;
-    height: auto;
+  .left {
+    margin-top: 8%;
+
+    float: left;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  
-  .frame{
-    border: 3px solid;
-    border-image: linear-gradient(90deg,#e74c3c 3%,#e74c3c 3%,#e67e22 12%,#e67e22 32%,#f1c40f 35%,#f1c40f 55%,#2ecc71 63%,#2ecc71 82%,#3498db 92%);
-    border-image-slice:1;
+  .right {
+    margin-top: 8%;
+    float: right;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  
   .work{
     border: solid 2px #06061d;
-    height: 500px;
+    height: 600px;
     width: auto;
   }
+  .workimg{
+    margin-top: 2%;
+    width: 15%;
+  }
+  #pos{
+    margin-top: 2%;
+    width: 25%;
+  }
+
+  /*
   .img_wrap{
     border: 1px solid #ddd;
     width: 300px;
@@ -123,7 +140,7 @@
     transform: translateY(-10px);
     transition-duration: 0.5s;
   }
-  
+  */
 
   .link {
     padding: 15px;
