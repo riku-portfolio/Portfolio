@@ -1,29 +1,100 @@
 
-  .contents{
-    margin: 0 auto;
-  }
+header{
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid 0.5px#adadad;
+  z-index: 999;
+}
+.title{
+  color: #06061d;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header__inner{
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header__logo{
+  flex: none;
+  width: auto;
+  height: 35px;
+}
+.header__navgroup{
+  margin-left: auto;
+  display: flex;
+  flex: none;
+}
+.header__navgroup > * + *{
+  margin-left: 60px;
+}
+.header__navitem{
+  font-size: 16px;
+  color: #06061d;
+}
+.header__navitem a{
+  color: #06061d;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+.header__navitem a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+.header__navitem a:hover::after {
+  transform: scale(1, 1);
+}
 
-  ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-  }
+ul{
+  list-style: none;
+}
 
-  h1{
-    color: #0b0b1b;
-    font-size: 120px;
-  }
+body {      
+  background-color:#fffefe;
+  margin: 0;
+}
+
+main{
+  padding-top: 150px;
+  margin-left: 7%;
+   margin-right: 7%;
+   margin-bottom: 200px;
+}
+#work{
+  padding-top: 100px;
+}
+#profile{
+  padding-top: 100px;
+
+}
+
 
   h2{
     color: #0b0b1b;
-    font-size: 43px;
+    font-size: 40px;
   }
 
   h3{
     color: #0b0b1b;
-    font-size: 34px;
+    font-size: 28px;
   }
-
   h4{
     color: #0b0b1b;
     font-size:20px;
@@ -34,33 +105,19 @@
     font-size: 18px;
   }
   
-  body {      
-    margin: 0;
-    background-color:#fffefe;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-  }
-
-  ul {
-    width: 100%;
-    height: 100%;
-  }
-
-  .prof{
-    width: 30%;
-    height: 20%;
-  }
-
 
   #w1{
-    background-color: #b4f8ed;
+    background-image: url("../image/work1/a.jpg");
+    overflow : hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+   /* background-color: #b4f8ed;*/
   }
   #w2{
-    background-color: #f3a0a0;
+    background: linear-gradient( #f3a0a0, #ff5959); /*#f3a0a0;*/
   }
   #w3{
-    background-color: #fde7ab;
+    background: linear-gradient( #fde7ab, #fdca3d); 
   }
 
   .workdetail{
@@ -73,17 +130,30 @@
   }
   
   .img-container{
-    display:flex;/* flexbox */
-    justify-content:center; /* 水平方向 */
-    align-items: center; /* 垂直方向 */
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    position: absolute;  /*要素を浮かす*/
+    /*relativeを指定した親要素を支点とした位置をすべて0に指定↓*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; /*上下左右中央に*/
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .prof-container{
-    display:flex;/* flexbox */
-    justify-content:center; /* 水平方向 */
-    align-items: center; /* 垂直方向 */
+    display:flex;
+    justify-content:center; 
+    align-items: center; 
     margin-left:3%;
     margin-right:4%;
+  }
+
+  .prof{
+    width: 30%;
   }
 
   .profexplanation{
@@ -91,43 +161,111 @@
     margin-right: 15%;
   }
 
-  .explanation{
-    margin-left: 5%;
+  .explanation_left {
+    margin-right: 15%;
+    height: auto;
   }
-  .left {
-    margin-top: 8%;
 
-    float: left;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .explanation_right {
+    margin-left: 15%;
   }
-  .right {
-    margin-top: 8%;
-    float: right;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
   .work{
-    border: solid 2px #06061d;
     height: 600px;
     width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;position: relative; /*中央揃えしたい要素の親要素に指定*/
+    border-radius: 5px;
   }
   .workimg{
-    margin-top: 2%;
-    width: 15%;
-  }
-  #pos{
-    margin-top: 2%;
-    width: 25%;
+    max-height: 500px;
   }
 
-  /*
+  .link {
+    padding: 15px;
+    background-image: linear-gradient(to right, #fefeff 50%, #06061d 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    border:  2px solid #06061d;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #06061d;
+  }
+  
+  .link:hover {
+    background-position: -100% 0;
+    color: #fff;
+  }
+
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: #06061d;
+  font-size: 60px;
+}
+
+.example {
+  position: relative;
+  }
+
+.example h3 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size: 30px;
+  color: #06061d;
+}
+
+.example p {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: #06061d;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.example img {
+  width: 100%;
+  background-color: blue; /* カラーフィルタ効果の色を指定 */
+    display: inline-block;  /* (任意：インラインブロック化したい場合) */
+    opacity: 0.2;    /* カラーフィルタ効果の度合いを指定(※) */
+    display: block;
+  }
+
+
+  .top-banner{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .top-banner li {
+    width: calc(100%/2);
+    padding:0 5px;
+    box-sizing:border-box;
+  }
+  .top-banner li img {
+    max-width:100%; /*画像のはみだしを防ぐ*/
+    height: auto; /*画像の縦横比を維持 */
+    border:solid 1px #ccc; 
+  }
+
+/*
   .img_wrap{
     border: 1px solid #ddd;
     width: 300px;
-    height: 226px;
+    height: 300px;
     margin: 20px auto 0;
     transition-duration: 0.5s;
   }
@@ -142,52 +280,87 @@
   }
   */
 
+@media screen and (max-width: 896px) { 
+
+  header{
+    height: 50px;
+  }
+  .title{
+    font-size: 14px;
+  }
+  .header__navitem{
+    font-size: 10px;
+    color: #06061d;
+  }
+  
+  p{
+    font-size: 10px;
+  }
+
   .link {
-    padding: 15px;
+    padding: 3px;
+    font-size: 10px;
     background-image: linear-gradient(to right, #fefeff 50%, #06061d 50%);
     background-position: 0 0;
     background-size: 200% auto;
     transition: .3s;
     border:  2px solid #06061d;
+    border-radius: 4px;
     text-decoration: none;
     color: #06061d;
-  
-  }
-  
-  .link:hover {
-    background-position: -100% 0;
-    color: #fff;
   }
 
-@media screen and (max-width: 896px) { 
-  h1{
-    color: #0b0b1b;
-    font-size: 75px;
+  h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: #06061d;
+    font-size: 20px;
   }
-
   h2{
     color: #0b0b1b;
-    font-size: 30px;
+    font-size: 18px;
+    padding-top: 100px;
   }
 
   h3{
     color: #0b0b1b;
-    font-size: 18px;
+    font-size: 16px;
   }
-
   h4{
     color: #0b0b1b;
-    font-size:18px;
+    font-size:12px;
   }
 
   p{
+    color: #0b0b1b;
     font-size: 10px;
   }
-
-  .link{
-    font-size: 10px;
-    line-height: 20px;
-    width: 50px;
+  .example p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: #06061d;
+    font-size: 12px;
+    font-weight: bold;
   }
 
+  .workimg{
+    max-height: 200px;
+  }
+  
+  .work{
+    height: 300px;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;position: relative; /*中央揃えしたい要素の親要素に指定*/
+    border-radius: 5px;
+  }
 }
