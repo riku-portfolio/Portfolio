@@ -1,30 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>mitani_riku_portfolio</title>
 <link href="css/portfolio.css" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script type="text/javascript" src="js/portfolio.js"></script>
 </head>
     
-<body class="loading"> 
-<main id="pad">
-<div data-scroll id="data">
-  
-<center>
-  <h1>三谷 陸</h1>
-  <h4>ポートフォリオ</h4><hr>
-  <br><br><br><br>
-  
 
+<body> 
+  <header>
+    <div class="header__inner">
+        <p class="title">三谷陸ポートフォリオ</p>
+      <div class="header__navgroup">
+        <div class="header__navitem"><a href="#work">作品</a></div>
+        <div class="header__navitem"><a href="#profile">プロフィール</a></div>
+      </div>
+    </div>
+  </header>
 
+  <main>
+  <center>
+
+  <div class="example">
+    <img src="image/self/top1.jpg">
+    <h3>様々な問題をエンジニアとデザインで解決する。</h3>	<br><br>
+    <p>
+      自分のスキルを存分に発揮し<br><br>
+      課題解決のためのプロダクトをつくり<br><br>
+      多くの人を喜ばせたい。
+    </p>	
+  </div>
+
+  <h2 id="work">作品</h2>
 <ul>
 <li class="work" id="w1">
-  <div class="prof-container">
+  <div class="img-container">
     <img src="image/work1/work1_1.png" class="workimg">
-    <div class="profexplanation">
+    <div class="explanation_right">
       <h4>記録を楽しくする家計簿アプリ</h4>
         <h3>voyage</h3>
       <p>UIデザイン</p>
@@ -32,100 +46,90 @@
     </div>
   </div>
 </li>
+
   <li class="work" id="w2">
-    <div class="prof-container">
-      <div class="profexplanation">
+    <div class="img-container">   
+      <div class="explanation_left">
         <h4>SDGsに貢献する食品管理アプリ</h4>
         <h3>Recci</h3>
-      <p>UIデザイン チーム開発</p>
-      <p><a href="work2.html" class="link">作品を見る →</a></p>
+        <p>アプリ開発 チーム開発</p>
+        <p><a href="work2.html" class="link">作品を見る →</a></p>
       </div>
-      <img src="image/work2/work2_1.png" class="workimg">
+        <img src="image/work2/work2_1.png" class="workimg">   
     </div>
- 
 </li>
 
   <li class="work" id="w3">
-      <div class="prof-container">
-        <img src="image/work4/work4_1.jpg" id="pos">
-        <div class="profexplanation">
-          <p>
-          <h4>体験会参加を促すポスター</h4>
-          <h3>北坂戸サッカークラブ<br>サッカー体験会ポスター</h3>
-          <p>ポスターデザイン 学外活動</p>
-          <p><a href="work4.html" class="link">作品を見る →</a></p>
-        </p>
-        </div>
+      <div class="img-container">
+        <img src="image/work4/work4_1.jpg" class="workimg">
+          <div class="explanation_right">
+            <h4>体験会参加を促すポスター</h4>
+            <h3>北坂戸サッカークラブ<br>サッカー体験会ポスター</h3>
+            <p>ポスターデザイン 学外活動</p>
+              <p><a href="work4.html" class="link">作品を見る →</a></p>
+          </div>
       </div>
   </li>
-
 </ul>
 
+   
+<br><br>
+<h2 id="profile">プロフィール</h2>
 
 </center>
-
-
-<br><br><br><br>
-<h2>プロフィール</h2>
-<p>
-  名前： 三谷　陸<br><br>
-  所属： 東洋大学 情報連携学部<br><br>
-  mail： riku06261146@gmail.com
-  <br><br>
-  
-  私のポートフォリオを閲覧していただきありがとうございます。
-  大学ではデザイン・エンジニアに関する勉学に取り組んでいます。<br>
-  現在最も興味があることと、真剣に取り組んできたことを以下に記載しました。
-</p>
+<div class="work">
+<div class="prof-container">
+  <img src="image/self/self-02.jpg" class="prof">
+  <div class="explanation_right">
+    <h4>
+      名前： 三谷　陸<br>
+      所属： 東洋大学 情報連携学部<br>
+      mail： riku06261146@gmail.com
+    </h4>
+    <h4>デザイン
+      スキル</h4>
+      <p>
+      HTML, CSS, AdobeIllustrator, AdobePhotoshop, AdobeXD, Fusion360, UE4, OpenGL
+    </p>
+    <h4>エンジニア
+      スキル</h4>
+    <p>
+      HTML, CSS, Javascript, C言語, Java, Python, Swift, Ocaml, SQL, OpenMP, Django, Xcode, Andoroid Studio
+    </p>
+  </div>
+    
+  </div>
+</div>
 
 <br><br>
+  
+<center>
+<h2>略歴</h2>
+</center>
+  <h4>幼少～高校　サッカー一筋だが、つまらなかった。</h4>
+  <p>
+    高校時代まではサッカー一筋で生きてきたが、父親に強制されていた面もあり、一度も心の底から楽しいと感じたことがなく、実力も伸びることがなかった。
+    しかし、サッカーで学んだことは非常に多く、特に「最後までやり遂げる継続力」と「チームプレイでの協調性の重要さ」を学んだ。
+  </p>
+  <br><br>
 
-<div class="prof-container">
-    <img src="image/self/self-01.jpg" class="prof">
-    <div class="profexplanation">
-      <h3 >デザイン</h3>
-      <p>
-        スキル： HTML, CSS, AdobeIllustrator, AdobePhotoshop, AdobeXD, Fusion360, UE4, OpenGL<br><br><br>
+  <h4>大学　自分のスキルで問題を解決し、喜んでもらいたい</h4>
+  <p>
+    学内では自分のやりたいと感じていたITとデザインの勉強に夢中で取り組み、チーム開発などで自身のスキルを発揮し、アプリ制作などに貢献した。
+    学外では自身がかなわなかった「サッカーを楽しむこと」を子供たちに伝えるため、サッカー指導者としての活動を始め、子供たちに練習が楽しみだといってもらえるようになった。
+    これらの経験を得て、自身のスキルを活かして問題解決行うことで人を喜ばせることができるということを知り、問題解決を通じて喜んでもらいたいと考えるようになった。
+  </p>
+  <br><br>
 
-        大学ではデザインコースに所属しており、UI・UXデザインから、Webデザイン・グラフィックデザイン・プロダクトデザイン・OpenGLを用いたコンピュータグラフィックなど、デザインを幅広く学んでいます。
-        このWebサイトは私がいままで制作してきたデザイン作品を載せたポートフォリオになります。
-      </p>
-    </div>
-  </div>
+  <h4>これから　様々な問題をエンジニアとデザインの力で解決していきたい</h4>
 
-<br><br><hr><br><br>
+  <ul class="top-banner">
+    <li><img src="image/self/sdg.png" ></li>
+    <li><img src="image/self/game.png" ></li>
+    </ul>
+ 
+  <h2></h2>
 
-  <div class="prof-container">
-    <div class="profexplanation">
-      <h3>エンジニア</h3>
-      <p>
-        スキル：HTML, CSS, Javascript, C言語, Java, Python, Swift, Ocaml, SQL, OpenMP, Django, Xcode, Andoroid Studio<br><br><br>
-
-        プログラミングスキルは、Swiftのみ独学で、ほかの全ての言語を授業の単位として取得しました。
-        プログラミングだけでなく、AI・IoT・OS・コンピュータアーキテクチャ・ネットワーク・セキュリティ・データベース・分散コンピューティングなど、エンジニアに関する内容幅広く学んでいます。
-        
-      </p>
-    </div>
-    <img src="image/self/engineer.png" class="prof">
-  </div>
-
-<br><br><hr><br><br>
-
-  <div class="prof-container">
-    <img src="image/self/coach.jpg" class="prof">
-    <div class="profexplanation">
-      <h3>サッカー</h3>
-      <p>
-        資格: 日本サッカー協会公認C級指導者<br><br><br>
-
-        私は約17年間サッカーに関わり続けており、現在は地元の少年団で、毎週水・土・日曜日に小学生のサッカー指導者として活動しています。
-        子供たち・保護者の方々・ベテランのコーチの方々からなど多くの人の信頼を得ることは大変ですが、他の環境では学ぶことができない貴重な経験ができていると感じています。
-        自身がかなわなかった「サッカーを楽しむ」ということを子供たちに伝えるまで、活動は続けたいと考えております。
-      </p>
-    </div>
-</div>
-
-</div>
 </main>
 </body>
 </html>
