@@ -101,6 +101,7 @@
     padding-left: 10%;
   }
   .left {
+    margin-top: 5%;
     float: left;
     width: 50%;
     background-repeat: no-repeat;
@@ -126,12 +127,12 @@
     color: #fff;
   }
   .top h3 {
-    font-size: 40px;
+    font-size: 32px;
     color: #fff;
   }
   .top h5 {
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
   }
   .top{
     width: 100%;
