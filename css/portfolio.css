@@ -124,7 +124,7 @@ a{
 }
 
 #w1{
-  background-image: url("../image/work1/a.jpg");
+  background-image: url("../image/work1/work1_top.jpg");
   overflow : hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -370,7 +370,7 @@ li p{
 }
 
 
-@media screen and (max-width: 768px){ 
+@media screen and (max-width: 736px){ 
   h1 {
     font-size: 36px;
   }
