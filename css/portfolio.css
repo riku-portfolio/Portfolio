@@ -298,6 +298,23 @@ li p{
     border-radius: 25px;
   }
 
+  .design{
+    background-color: #fff7e4;
+    border-radius: 25px;
+    padding-top: 1%;
+  }
+
+  .engineer{
+    background-color: #e3eefd;
+    border-radius: 25px;
+    padding-top: 1%;
+  }
+
+  .soccer{
+    background-color: #ffe7e8;
+    border-radius: 25px;
+    padding-top: 1%;
+  }
 
 @media screen and (max-width: 1336px) { 
     h1 {
