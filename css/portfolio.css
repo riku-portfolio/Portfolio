@@ -298,6 +298,23 @@ li p{
     border-radius: 25px;
   }
 
+  .design{
+    background: linear-gradient(#fff7e4,#ffedc2);
+    border-radius: 25px;
+    padding-top: 1%;
+  }
+
+  .engineer{
+    background: linear-gradient(#e3eefd, #bfd9fd);
+    border-radius: 25px;
+    padding-top: 1%;
+  }
+
+  .soccer{
+    background: linear-gradient(#ffe7e8, #ffcdcf);
+    border-radius: 25px;
+    padding-top: 1%;
+  }
 
 @media screen and (max-width: 1336px) { 
     h1 {
