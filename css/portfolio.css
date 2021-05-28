@@ -61,25 +61,14 @@ header{
   position: relative;
   }
 
-.example h2 {
+.example h3 {
   position: absolute;
-  top: 10%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   margin:0;
   padding:0;
   color: #06061d;
-}
-
-.example h4 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  color: #06061d;
-  font-weight: bold;
 }
 
 .example img {
